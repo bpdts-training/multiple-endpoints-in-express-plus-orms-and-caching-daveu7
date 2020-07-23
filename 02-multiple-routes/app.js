@@ -1,6 +1,11 @@
 let express = require("express");
 let app = express();
-const seasons = require("./routes/seasons")
+const url = require("./routes/url");
+const seasons = require("./routes/seasons");
+const sevenoceans = require("./routes/sevenoceans");
+const top5neareststars = require("./routes/top5neareststars");
+
+
 
 app.listen(3000, () => {
     console.log("Server running on port 3000");
